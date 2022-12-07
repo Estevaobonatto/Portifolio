@@ -181,11 +181,6 @@ body {
     margin-bottom: 60px;
 }
 
-.principal-sobre {
-    margin-top: 65px;
-    margin-bottom: 10px;
-}
-
 .conteudo-p-sobre {
     display: flex;
     flex-direction: row;
@@ -493,6 +488,46 @@ body {
     line-height: 38px;
     text-align: center;
     padding: 10px;
+}
+
+
+.sobre-texto-projetos {
+    line-height: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 0px;
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.botao-github {
+    margin-left: 18%;
+    margin-top: 20px;
+    color: #434343;
+    background-color: #A38CFF;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 7px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Ubuntu Mono', monospace;
+    border: 3px solid #434343;
+}
+
+.botao-github a {
+    color: #434343;
+}
+
+.botao-github:hover{
+    background: #434343;
+    transition: 0.5s all;
+    cursor: pointer;
+    border: 3px solid #ffffff;
+}
+
+.botao-github a:hover {
+    color: #ffffff;
+    transition: 0.5s all;
 }
 
 
